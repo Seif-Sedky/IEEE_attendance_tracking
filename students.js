@@ -1,4 +1,4 @@
-// Edit this file: committees and members. Photos go in the /photos folder (or use any image URL).
+// Edit this file: committees and members. Photos are optional (add photo: 'url' to a member).
 // committee must be one of the keys below. One committee per student.
 const COMMITTEES = {
   ai: { name: 'AI', color: '#ffae12' },
@@ -8,5 +8,59 @@ const COMMITTEES = {
 };
 
 const STUDENTS = [
-
+  // ---- Cybersecurity ----
+  { id: '70-19532', name: 'Omar Okasha', committee: 'cyber' },
+  { id: '70-7300', name: 'Yehia Ibrahim Hussain', committee: 'cyber' },
+  { id: '67-17760', name: 'Yahia Mohsen', committee: 'cyber' },
+  { id: '70-4359', name: 'Rawan', committee: 'cyber' },
+  { id: '67-31137', name: 'Ahmed Shawky Fahim Mohamed', committee: 'cyber' },
+  { id: '67-28426', name: 'Mohamed Youssef Mohamed Samy', committee: 'cyber' },
+  { id: '64-4755', name: 'Mina Amgad Edward', committee: 'cyber' },
+  { id: '64-3137', name: 'Omar Shehata Awad Mohamed', committee: 'cyber' },
+  { id: '70-24122', name: 'Hady Amr Ibrahim Elsayed Adawy', committee: 'cyber' },
+  { id: '61-7208', name: 'Shahd Ibrahim Ismail', committee: 'cyber' },
+  { id: '64-10569', name: 'Arwa Ali Sakr', committee: 'cyber' },
+  { id: '64-27565', name: 'Jana Mohamed Eid', committee: 'cyber' },
+  { id: '67-6525', name: 'Omar Mohamed Emam', committee: 'cyber' },
+  { id: '64-22767', name: 'Youssef Ashraf Saber Ali', committee: 'cyber' },
+  { id: '61-7700', name: 'Mohamed Tamer Elsedawy', committee: 'cyber' },
+  { id: '67-6265', name: 'Ali Essam Abdel-aziz Aboelatta', committee: 'cyber' },
+  { id: '67-1876', name: 'Marina Ramy Samir', committee: 'cyber' },
+  { id: '64-18944', name: 'Lujayn Sameh', committee: 'cyber' },
+  { id: '64-24759', name: 'Abdallah Mohammad', committee: 'cyber' },
+  { id: '67-13577', name: 'Malik Islam Mohamed Rezk', committee: 'cyber' },
+  { id: '70-20644', name: 'Ganna Allah Soliman Afify Soliman', committee: 'cyber' },
+  { id: '67-2772', name: 'Hala Ehab Galal Aly Ghonima', committee: 'cyber' },
+  { id: '70-2816', name: 'Youssef Haytham Ali Ibrahim', committee: 'cyber' },
+  { id: '67-9120', name: 'Farah Mohamed', committee: 'cyber' },
+  { id: '64-19880', name: 'Sama Ismael Ahel', committee: 'cyber' },
+  { id: '64-31506', name: 'Suhad Eyhab Rasheed', committee: 'cyber' },
+  { id: '64-7664', name: 'Daii Hytham ElSaiid', committee: 'cyber' },
+  { id: '61-2838', name: 'Malak Tamer Ali', committee: 'cyber' },
+  { id: '67-9737', name: 'Kareem Hesham El-Sawy', committee: 'cyber' },
+  { id: '67-9027', name: 'Andrew Samuel', committee: 'cyber' },
+  { id: '64-23891', name: 'Faris Emad', committee: 'cyber' },
+  { id: '67-2479', name: 'Kareem Mohamed Salah Mohamed Wahdan', committee: 'cyber' },
+  { id: '70-5721', name: 'Mazen Amgad Ali', committee: 'cyber' },
+  { id: '64-1531', name: 'Habiba Amin', committee: 'cyber' },
+  { id: '64-13919', name: 'Leena Ahmed Abdelrafea', committee: 'cyber' },
+  { id: '67-9229', name: 'Youssef Mamdouh Fraiz', committee: 'cyber' },
+  { id: '70-3485', name: 'Philopatir Hany', committee: 'cyber' },
+  { id: '67-27579', name: 'Nada Loay Mohamed Ali', committee: 'cyber' },
+  { id: '61-12445', name: 'Jana Gadallah', committee: 'cyber' },
+  { id: '67-7370', name: 'Tasneem Mohamed', committee: 'cyber' },
+  { id: '67-6679', name: 'Shady Milad', committee: 'cyber' },
+  { id: '64-7093', name: 'Nour Nasser', committee: 'cyber' },
+  { id: '61-5908', name: 'Yassin Mohamee Amin', committee: 'cyber' },
+  { id: '70-14908', name: 'Youssef Mahmoud', committee: 'cyber' },
+  { id: '67-3766', name: 'Hana Tarek', committee: 'cyber' },
+  { id: '64-20763', name: 'Mariam Ekramy Mohamed Amin Ashmawy Fawzy', committee: 'cyber' },
+  { id: '64-18927', name: 'AbdelRahman Mohamed Elsayed Abdelwanis', committee: 'cyber' },
+  { id: '67-2541', name: 'Mariam Mohamed', committee: 'cyber' },
+  { id: '64-22486', name: 'Omar Domiaty', committee: 'cyber' },
+  { id: '61-29667', name: 'Yassin Refaat', committee: 'cyber' },
+  { id: '67-1861', name: 'Hana Ayman Mohamed Beiram', committee: 'cyber' },
+  { id: '61-1450', name: 'Merna', committee: 'cyber' },
+  { id: '61-1391', name: 'Zaina Elseabey', committee: 'cyber' }
+  // ---- Add AI / software / cp members below, same format ----
 ];
