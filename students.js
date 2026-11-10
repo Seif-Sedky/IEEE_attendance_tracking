@@ -91,7 +91,7 @@ const STUDENTS = [
   { id: '67-2705', name: 'Rana Ismail Ahmed Ismail', committee: 'software' },
   { id: '70-33066', name: 'Tamim Belal', committee: 'software' },
   { id: '70-5981', name: 'Nour Mohamed Mohieeldin Ibrahim Hashad', committee: 'software' },
-  { id: '67-28851', name: 'Ahmed Omar Ahmed Arafa', committee: 'software' },
+  { id: '67-28951', name: 'Ahmed Omar Ahmed Arafa', committee: 'software' },
   { id: '67-17052', name: 'Asser Mahmoud', committee: 'software' },
   { id: '67-23167', name: 'Nour Ahmed Osman', committee: 'software' },
   { id: '67-5225', name: 'Youssef Mostafa Zakaria', committee: 'software' },
