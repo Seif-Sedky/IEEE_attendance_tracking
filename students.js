@@ -1,10 +1,10 @@
 // Edit this file: committees and members. Photos are optional (add photo: 'url' to a member).
 // committee must be one of the keys below. One committee per student.
 const COMMITTEES = {
-  ai: { name: 'AI', color: '#ffae12' },
-  cyber: { name: 'Cybersecurity', color: '#ff1f4a' },
-  software: { name: 'Software Development', color: '#3f8cea' },
-  cp: { name: 'Competitive Programming', color: '#0a4aa0' }
+  ai:       { name: 'AI',                      color: '#ffae12' },
+  cyber:    { name: 'Cybersecurity',           color: '#ff1f4a' },
+  software: { name: 'Software Development',    color: '#3f8cea' },
+  cp:       { name: 'Competitive Programming', color: '#0a4aa0' }
 };
 
 const STUDENTS = [
@@ -91,7 +91,7 @@ const STUDENTS = [
   { id: '67-2705', name: 'Rana Ismail Ahmed Ismail', committee: 'software' },
   { id: '70-33066', name: 'Tamim Belal', committee: 'software' },
   { id: '70-5981', name: 'Nour Mohamed Mohieeldin Ibrahim Hashad', committee: 'software' },
-  { id: '67-28951', name: 'Ahmed Omar Ahmed Arafa', committee: 'software' },
+  { id: '67-28851', name: 'Ahmed Omar Ahmed Arafa', committee: 'software' },
   { id: '67-17052', name: 'Asser Mahmoud', committee: 'software' },
   { id: '67-23167', name: 'Nour Ahmed Osman', committee: 'software' },
   { id: '67-5225', name: 'Youssef Mostafa Zakaria', committee: 'software' },
@@ -121,7 +121,47 @@ const STUDENTS = [
   { id: '64-22627', name: 'Judy Mohamed Ibrahim', committee: 'software' },
   { id: '67-1059', name: 'Habiba Omar', committee: 'software' },
   { id: '70-30641', name: 'Youssef Ahmed Hamdy Yaseen Fares', committee: 'software' },
-  { id: '67-3420', name: 'Yasseen Dewidar', committee: 'software' },
-
-  // ---- Add AI / cp members below, same format ----
+  // ---- AI ----
+  { id: '67-7516', name: 'Abdelrahman Shourbagy', committee: 'ai' },
+  { id: '64-7111', name: 'Abdullah Amr', committee: 'ai' },
+  { id: '61-1151', name: 'Adham Metwaly', committee: 'ai' },
+  { id: '64-14013', name: 'Amira Osama', committee: 'ai' },
+  { id: '70-15795', name: 'Bassem Wael', committee: 'ai' },
+  { id: '61-12338', name: 'Batoul Abdelhamid', committee: 'ai' },
+  { id: '61-3054', name: 'Berry Hassan', committee: 'ai' },
+  { id: '64-22419', name: 'Bushra Magdy', committee: 'ai' },
+  { id: '61-2398', name: 'David Hanna', committee: 'ai' },
+  { id: '61-14947', name: 'Fareed Gadalla', committee: 'ai' },
+  { id: '58-23387', name: 'Hamza Abdelghany', committee: 'ai' },
+  { id: '61-30601', name: 'Heyam Alashi', committee: 'ai' },
+  { id: '61-1697', name: 'Kareem Ashraf', committee: 'ai' },
+  { id: '61-30887', name: 'Karim Mounir Abdelmonem', committee: 'ai' },
+  { id: '64-3094', name: 'Layan Ismaeil', committee: 'ai' },
+  { id: '67-20304', name: 'Logy Bassem', committee: 'ai' },
+  { id: '70-14586', name: 'Lojain Ayman Mohsen', committee: 'ai' },
+  { id: '61-3885', name: 'Malak Alaa', committee: 'ai' },
+  { id: '64-27285', name: 'Malak Yasser Amrallah', committee: 'ai' },
+  { id: '61-10386', name: 'Mohamed Abdallah El Adly', committee: 'ai' },
+  { id: '61-34803', name: 'Mohamed Enan', committee: 'ai' },
+  { id: '70-9882', name: 'Mohammed Amr', committee: 'ai' },
+  { id: '59-30024', name: 'Mohammed Mahmoud Elnaggar', committee: 'ai' },
+  { id: '64-5142', name: 'Mohammed Noureldin', committee: 'ai' },
+  { id: '61-5207', name: 'Noran', committee: 'ai' },
+  { id: '61-10732', name: 'Nour Hazem', committee: 'ai' },
+  { id: '61-32913', name: 'Nour Tantawi', committee: 'ai' },
+  { id: '61-8095', name: 'Omar Elsherif', committee: 'ai' },
+  { id: '64-13527', name: 'Omar Noureldin', committee: 'ai' },
+  { id: '64-10217', name: 'Rawan Aglan', committee: 'ai' },
+  { id: '70-15245', name: 'Sameh Ali', committee: 'ai' },
+  { id: '61-33749', name: 'Sarah Mohamed', committee: 'ai' },
+  { id: '70-5334', name: 'Yahia Ahmed Mohammed Kamel', committee: 'ai' },
+  { id: '67-12751', name: 'Yassien Emad', committee: 'ai' },
+  { id: '61-31718', name: 'Yousef Islam', committee: 'ai' },
+  { id: '70-18896', name: 'Youssef Alaa', committee: 'ai' },
+  { id: '64-16556', name: 'Youssef Amr', committee: 'ai' },
+  { id: '70-14788', name: 'Youssef Hany', committee: 'ai' },
+  { id: '61-2780', name: 'Youssef Ismaeil', committee: 'ai' },
+  { id: '67-17192', name: 'Youssef Magdy', committee: 'ai' },
+  { id: '70-32601', name: 'Ziad Sboushanab', committee: 'ai' },
+  // ---- Add cp members below, same format ----
 ];
