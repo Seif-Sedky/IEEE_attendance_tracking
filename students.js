@@ -1,10 +1,10 @@
 // Edit this file: committees and members. Photos are optional (add photo: 'url' to a member).
 // committee must be one of the keys below. One committee per student.
 const COMMITTEES = {
-  ai:       { name: 'AI',                      color: '#ffae12' },
-  cyber:    { name: 'Cybersecurity',           color: '#ff1f4a' },
-  software: { name: 'Software Development',    color: '#3f8cea' },
-  cp:       { name: 'Competitive Programming', color: '#0a4aa0' }
+  ai: { name: 'AI', color: '#ffae12' },
+  cyber: { name: 'Cybersecurity', color: '#ff1f4a' },
+  software: { name: 'Software Development', color: '#3f8cea' },
+  cp: { name: 'Competitive Programming', color: '#0a4aa0' }
 };
 
 const STUDENTS = [
@@ -91,7 +91,7 @@ const STUDENTS = [
   { id: '67-2705', name: 'Rana Ismail Ahmed Ismail', committee: 'software' },
   { id: '70-33066', name: 'Tamim Belal', committee: 'software' },
   { id: '70-5981', name: 'Nour Mohamed Mohieeldin Ibrahim Hashad', committee: 'software' },
-  { id: '67-28851', name: 'Ahmed Omar Ahmed Arafa', committee: 'software' },
+  { id: '67-28951', name: 'Ahmed Omar Ahmed Arafa', committee: 'software' },
   { id: '67-17052', name: 'Asser Mahmoud', committee: 'software' },
   { id: '67-23167', name: 'Nour Ahmed Osman', committee: 'software' },
   { id: '67-5225', name: 'Youssef Mostafa Zakaria', committee: 'software' },
